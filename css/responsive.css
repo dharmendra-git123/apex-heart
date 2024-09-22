@@ -1,0 +1,441 @@
+@media screen and (max-width:1199px) {
+    #requesting-main .requesting .appointment {
+        max-width: 100%;
+    }
+    
+    #requesting-main .news-main span {
+        padding-top: 0;
+    }
+}
+
+
+
+@media screen and (max-width:1023px) {
+    #requesting-main .requesting .appointment {
+        max-width: 100%;
+        
+    }
+    #requesting-main .news-main span {
+        font-size: 12px;
+    }
+    #footer .footer-top .quick img.trico {
+        max-width: 210px;
+    }
+    #footer .footer-top .quick ul li {
+        padding: 5px 0;
+    }
+    #header .header-bottom nav ul li {
+        height: 56px;
+    }
+    #header .header-bottom .icon {
+        padding-top: 13px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #header .header-top .apex .right-image {
+        display: none;
+    }
+    #header .header-top {
+        background: none;
+        margin: 0;
+    }
+    #header .header-bottom .icon {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -90px;
+        z-index: 22;
+        font-size: 30px;
+    }
+    #header .header-bottom nav {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        transition: left 1s;
+        background-color: rgba(82, 79, 79, 0.9);
+        z-index: 111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #header .header-bottom.slow nav {
+        left: 0; 
+        top: 0;
+        transition: left 1s;
+        z-index: 11;
+        width: 100%;
+        background-color: rgba(82, 79, 79, 0.9);
+        display: flex;
+        align-items: center;
+    }
+    .slow .menu-icon i:before {
+        content: '\f00d';
+        color: #fff;
+    }
+    #header .header-bottom nav ul {
+        display: block;
+        text-align: left;
+    }
+    #header .header-bottom nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    #banner .banner-slider .slick-arrow {
+        z-index: 1;
+    }
+     #requesting-main .requesting .appointment {
+        padding: 18px 14px;
+    }
+    #requesting-main .requesting .appointment a {
+        padding: 7px 5px;
+        font-size: 14px;
+    }
+    #requesting-main .requesting .appointment img {
+        width: 50px;
+    }
+    #requesting-main .requesting span {
+        padding: 10px 0 0 0;
+        font-size: 20px;
+    }
+    #requesting-main .news-main span {
+        padding-top: 5px;
+    }
+    #welcome .institute {
+        max-width: inherit;
+        text-align: center;
+    }
+    #welcome .institute p {
+        text-align: justify;
+    }
+    #experts-main {display: inline-block;background: none;}
+    #experts-main .name {
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+    #experts-main .speak-men {
+        max-width: 100%;
+        text-align: center;
+    }
+    #experts-main .name h2 {
+        color: #000;
+    }
+    #experts-main .name p {
+        color: #000;
+    }
+    #experts-main .name span {
+        color: red;
+    }
+    #experts-main .dr-tejas .profile {
+        border: 10px solid #000;
+    }
+    #experts-main .dr-tejas .profile span {
+        font-size: 20px;
+        text-align: justify;
+    }
+    #welcome .institute img {
+        max-height: 290px;
+        object-fit: cover;
+    }
+    #corporation .newsletter {
+        text-align: center;
+        width: 100%;
+        max-width: inherit;
+        margin-top: 28px;
+    }
+    #teams .doctors {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    #teams .doctors img {
+        width: 100%;
+        height: 350px;
+        object-fit: fill;
+    }
+    .social-icon {
+        top: 190px;
+        left: 130px;
+    }
+    #footer .footer-top .quick {
+        max-width: inherit;
+        margin-top: 20px;
+    }
+    #footer .footer-top .quick {
+        max-width: inherit;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:839px) {
+    #testimonial-main .testimonial h2 {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+    
+    #testimonial-main .testimonial p {
+        font-size: 14px;
+    }
+    
+    #testimonial-main .testimonial p:before {
+        width: 50px;
+        right: -60px;
+        top: 22px;
+    }
+    
+    #testimonial-main .testimonial p:after {
+        width: 50px;
+        top: 19px;
+        left: -60px;
+    }
+
+    #requesting-main .requesting .appointment {
+        padding: 7px 4px;
+    }
+    
+    #requesting-main .news-main span {
+        padding-left: 20px;
+    }
+
+    #teams .doctors img {
+        max-width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #testimonial-main .testimonial p:before {
+        width: 40px;
+        right: -30px;
+        background-size: contain;
+    }
+    
+    #testimonial-main .testimonial p:after {
+        width: 40px;
+        background-size: contain;
+        left: -30px;
+    }
+    
+    #testimonial-main .testimonial p {
+        max-width: 480px;
+    }
+    
+    .menu-icon {
+        right: 30px;
+    }
+    
+    #header .header-top .apex .logo img {
+        max-width: 150px;
+    }
+    
+    #banner .banner-slider .slick-prev.slick-arrow {
+        left: 50px;
+    }
+    
+    #banner .banner-slider .slick-arrow {
+        right: 80px;
+    }
+    
+    #banner .banner-slider .banner-image img {
+        max-height: 300px;
+    }
+    
+    #requesting-main .requesting .appointment {width: auto;padding: 10px 12px;}
+    
+    #requesting-main .requesting span {font-size: 15px;padding-top: 0;}
+    
+    #requesting-main .requesting .appointment img {width: 40px;}
+    
+    #requesting-main .requesting .appointment a {
+        padding: 6px 11px;
+        font-size: 12px;
+    }
+    
+    #requesting-main .requesting {
+        padding: 10px 0px;
+    }
+    
+    #requesting-main .news-main {display: none;}
+    
+    #welcome .procedures .invasive {
+        max-width: inherit;
+        margin-top: 20px;
+        padding: 8px;
+        text-align: justify;
+        box-shadow: 0 5px 5px #ddd;
+        transform: skew(7deg);
+    }
+    
+    #welcome .procedures .invasive:hover {
+        color: #fff;
+    }
+    
+    #experts-main .dr-tejas .profile span {
+        font-size: 14px;
+    }
+    
+    #corporation .natural {
+        padding: 0;
+    }
+    
+    #corporation .natural .virtual {
+        max-width: inherit;
+        width: 100%;
+        padding: 23px 8px;
+        text-align: left;
+        border-bottom: 2px solid #999;
+    }
+    
+    #corporation .natural .virtual img {
+        max-width: inherit;
+        height: 200px;
+        object-fit: fill;
+    }
+    
+    .social-icon {
+        top: 166px;
+        left: 243px;
+    }
+    
+    #teams .doctors img {
+        height: 340px;
+        max-width: 100%;
+        object-fit: fill;
+    }
+    
+    #teams .doctors {
+        max-width: 100%;
+    }
+    
+    #teams .doctors p {
+        font-size: 14px;
+    }
+    
+    #teams .doctors h4 {
+        font-size: 24px;
+    }
+    
+    #footer .footer-top .quick img.trico {
+        display: none;
+    }
+    
+    #footer .footer-top .quick {
+        margin-top: 0;
+    }
+
+    #footer .footer-top {
+        padding: 0 0 16px 0;
+    }
+    
+}
+
+@media screen and (max-width:539px) {
+    #testimonial-main .testimonial p {
+        max-width: 340px;
+        font-size: 12px;
+    }
+    
+    #testimonial-main .testimonial p:after {
+        width: 30px;
+        left: -45px;
+    }
+    
+    #testimonial-main .testimonial p:before {
+        width: 30px;
+        right: -45px;
+    }
+    
+    #testimonial-main .testimonial span {
+        font-size: 11px;
+    }
+    
+    .social-icon {
+        top: 200px;
+        left: 160px;
+    }
+    
+    #experts-main .dr-tejas .profile {
+        display: block;
+    }
+    
+    #experts-main .dr-tejas .profile img {
+        width: 100%;
+        height: 350px;
+        object-fit: fill;
+    }
+    #footer .footer-bottom a {
+        display: block;
+        border: none;
+    }
+    
+    #footer .footer-bottom {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #footer .footer-bottom a {
+        display: block;
+        border: none;
+    }
+    
+    #footer .footer-bottom {
+        padding: 10px 0;
+    }
+    
+    #testimonial-main .testimonial p:before {
+        width: 25px;
+        right: -25px;
+    }
+    
+    #testimonial-main .testimonial p:after {
+        width: 25px;
+        left: -21px;
+    }
+    
+    #testimonial-main .testimonial p {
+        max-width: 290px;
+    }
+    
+    #banner .banner-slider .banner-image img {
+        max-height: 250px;
+    }
+    
+    #banner .banner-slider .slick-arrow:after {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #banner .banner-slider .slick-prev.slick-arrow {
+        left: 10px;
+        top: 105px;
+    }
+    
+    #banner .banner-slider .slick-arrow {
+        right: 44px;
+        top: 112px;
+    }
+    
+    #header .header-top .apex .logo img {
+        max-width: 120px;
+    }
+    
+    #header .header-top {
+        padding: 18px 0 0 0;
+    }
+    
+    .menu-icon {
+        top: -70px;
+    }
+    
+    #footer .footer-bottom a {
+        font-size: 12px;
+    }
+}
